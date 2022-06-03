@@ -98,7 +98,13 @@
          <i class="fa-brands fa-product-hunt"></i> Manage Product
         </a>
       </li>
+    <li>
+        <a href="{{ route('companies.index') }}" class="nav-link text-white">
 
+          <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+         <i class="fa-solid fa-building"></i> Manage Company
+        </a>
+      </li>
     </ul>
     <hr>
     <div class="dropdown">
